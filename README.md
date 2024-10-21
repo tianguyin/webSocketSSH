@@ -14,3 +14,8 @@ web-80（一般靶场不会采用443）
 该项目仅为后端，前端可以通过xterm适配
 
 目前仅支持通过websocket反向代理（如nginx等）
+
+
+为节省时间可参考文档:https://www.tianguyin.com/archives/websocketsshlian-jie-shi-yong-shuo-ming
+
+加速地址:https://blog.tiangucloud.org/archives/websocketsshlian-jie-shi-yong-shuo-ming
