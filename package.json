@@ -1,0 +1,23 @@
+{
+  "name": "ssh",
+  "version": "1.0.0",
+  "main": "server.js",
+  "bin": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "pkg ."
+  },
+  "pkg": {
+    "targets": [
+      "node14-linux-x64"
+    ],
+    "assets": [
+      "public/**/*"
+    ]
+  },
+  "dependencies": {
+    "express": "^4.x",
+    "ws": "^8.x",
+    "ssh2": "^1.x"
+  }
+}
